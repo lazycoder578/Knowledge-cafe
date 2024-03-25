@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/84Zfw2n/1.jpg",
+      "title": "Secrets of the Cosmic Nebula",
+      "author": "Stella Starlight",
+      "author_img": "https://i.ibb.co/VvLNdLL/boy1.png",
+      "posted_date": "March 26, 2024",
+      "reading_time": 5,
+      "hashtags": ["#SpaceExploration", "#GalacticMysteries", "#ScienceFiction"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/6N2dgnZ/2.png",
+      "title": "The Enchanted Forest Chronicles",
+      "author": "Willow Wisp",
+      "author_img": "https://i.ibb.co/7rFSJx5/girl1.png",
+      "posted_date": "March 25, 2024",
+      "reading_time": 4,
+      "hashtags": ["#Fantasy", "#MagicalCreatures", "#Adventure"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/RzGzcPg/3.png",
+      "title": "Unraveling the Mysteries of Time",
+      "author": "Chrono Quest",
+      "author_img": "https://i.ibb.co/vwGwnhT/boy2.jpg",
+      "posted_date": "March 24, 2024",
+      "reading_time": 10,
+      "hashtags": ["#TimeTravel", "#TemporalPhysics", "#Exploration"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/vvTfkcv/4.jpg",
+      "title": "The Lost Kingdom of Atlantis",
+      "author": "Marina Mermaid",
+      "author_img": "https://i.ibb.co/Sn7zB4q/girl2.jpg",
+      "posted_date": "March 23, 2024",
+      "reading_time": 9,
+      "hashtags": ["#LostCivilizations", "#UnderwaterExploration", "#Mythology"]
+    }
+    
+  ]
+  

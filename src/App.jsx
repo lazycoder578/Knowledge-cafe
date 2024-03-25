@@ -1,11 +1,14 @@
 import {} from 'react'
 import './App.css'
+import Header from './components/Header/Header'
+import Blogs from './components/Header/Blogs/Blogs'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-3xl text-center'>Knowledge Cafe</h1>
+     <Header />
+     <Blogs />
     </>
   )
 }
