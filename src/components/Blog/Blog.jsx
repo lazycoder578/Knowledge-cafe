@@ -1,20 +1,43 @@
-import Proptypes from 'prop-types'
+import Proptypes from "prop-types";
 
 const Blog = ({ blog }) => {
-  const { cover, title, author, reading_time } = blog;
+  const {
+    cover,
+    title,
+    posted_date,
+    author,
+    author_img,
+    reading_time,
+    hashtags,
+  } = blog;
   return (
     <div>
+      <img src={cover} alt={`Cover Picture Of The Title ${title}`} />
+      <div className="flex justify-between align-center">
+        <div className="flex">
+          <img className="w-14" src={author_img} alt="" />
+          <div className="ml-6">
+            <h3 className="text-2xl">{author}</h3>
+            <p>{posted_date}</p>
+          </div>
+        </div>
+        <div>
+          <span>{reading_time} min read</span>
+        </div>
+      </div>
+      <h2 className="text-4xl">{title}</h2>
       <p>
-        <img src={cover} alt="" />
+        {hashtags.map((hash, idx) => (
+          <span key={idx}>
+            <a href="">#{hash}</a>
+          </span>
+        ))}
       </p>
-      <h2>Author: {author}</h2>
-      <h3>Title: {title}</h3>
-      <h3>Reading_Time: {reading_time}</h3>
     </div>
   );
 };
 Blog.propTypes = {
-    blog: Proptypes.object.isRequired,
-}
+  blog: Proptypes.object.isRequired,
+};
 
 export default Blog;
